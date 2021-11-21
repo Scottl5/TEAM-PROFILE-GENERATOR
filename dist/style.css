@@ -1,0 +1,29 @@
+:root {
+  --header: rgb(61, 61, 240);
+
+  --body: lightgrey;
+
+  --li: white;
+}
+
+.card {
+  border: 3px black solid;
+  background-color: var(--body);
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background-color: var(--li);
+}
+
+p {
+  background-color: var(--li);
+}
+.card-header {
+  background-color: var(--header);
+  color: white;
+}
